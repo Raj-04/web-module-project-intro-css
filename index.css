@@ -43,7 +43,7 @@ blockquote, q {
     padding: 0;
     margin:0;
     max-width:100%;
-    border: 1px solid grey;
+    border: 0px solid grey;
 }  
   /* General Styles  */
 html{
@@ -110,6 +110,7 @@ margin-right: 10%;
     margin-left:3%;
     position:absolute;
     top:40%;
+    color:black;
 }
 
 
@@ -139,12 +140,22 @@ b {
     background-color:#4EE2EC;
     color: #E55451;
 } 
-.fire img{ 
-    height:50px;
-    width: 25%;
-    margin-left:50%;
-    padding: 50%;
+.fire img{
+    position: relative;
+    width:20%;
+    display: inline-block;
+    
 }
 .entrance{
-    position:relative;
+    text-align:center;
+    color:black;
+    background-position: center;
+    padding-right: 500px;
+    padding-left: 500px;
+
+}
+.travel img{
+    position: relative;
+    width:20%;
+    display: inline-block;
 }
